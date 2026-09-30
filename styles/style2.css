@@ -1,0 +1,228 @@
+﻿@import url("layout.css");
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-attachment: scroll;
+	background-color: #100b16;
+	background-image: url("../images/background.gif");
+	background-position: top left;
+	background-repeat: repeat-x;
+	color: #eee5f5;
+}
+
+#container {
+	width: 100%;
+	margin-top: 57px;
+	border-bottom: 2px solid #6d3b82;
+	background-color: #17121d;
+}
+
+/* =========================
+   MASTHEAD
+   ========================= */
+
+#masthead {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+#masthead h1 {
+	font-weight: bold;
+	color: #c77dff;
+	text-transform: uppercase;
+	display: inline;
+	text-shadow: 0 0 8px rgba(199, 125, 255, 0.45);
+}
+
+#masthead h3 {
+	bottom: 0;
+	font-weight: normal;
+	color: #d8b4e8;
+	display: inline;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+/* =========================
+   NAVEGACIÓN
+   ========================= */
+
+#navigation {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	overflow: hidden;
+}
+
+#navigation ul {
+	list-style-type: none;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #f8efff;
+	display: block;
+	margin: 0 1px;
+	padding: 7px 8px;
+	border: 1px solid #704080;
+	background-color: #3b2149;
+	border-radius: 7px 7px 0 0;
+	transition: all 0.3s ease;
+}
+
+#navigation a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #8e44ad;
+	border-color: #c77dff;
+	box-shadow: 0 0 10px rgba(199, 125, 255, 0.55);
+}
+
+/* =========================
+   CONTENIDO
+   ========================= */
+
+#page_content {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+#content {
+	position: relative;
+	float: left;
+	width: 290px;
+	padding-top: 7px;
+	text-align: left;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+	color: #c77dff;
+	text-shadow: 0 0 5px rgba(199, 125, 255, 0.25);
+}
+
+#content p {
+	color: #e6ddec;
+	line-height: 1.6;
+}
+
+#content img {
+	padding: 5px;
+	border: 2px solid #704080;
+	background-color: #21182a;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+#content img:hover {
+	border-color: #c77dff;
+	box-shadow: 0 0 14px rgba(199, 125, 255, 0.55);
+}
+
+/* =========================
+   SIDEBAR
+   ========================= */
+
+#sidebar {
+	float: right;
+	width: 350px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+#sidebar p {
+	color: #d9d0df;
+	line-height: 1.5;
+}
+
+#sidebar h1,
+#sidebar h2,
+#sidebar h3 {
+	color: #c77dff;
+}
+
+#sidebar img {
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border: 1px solid #704080;
+	border-radius: 8px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+#footer {
+	clear: both;
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 5px;
+	text-align: left;
+	border-top: 1px solid #4c2b5c;
+}
+
+#footer p {
+	font-size: 0.85em;
+	color: #a99ab3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footer a {
+	color: #b978e6;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #d9a3ff;
+	text-decoration: none;
+}
+
+/* =========================
+   ENLACES
+   ========================= */
+
+a {
+	color: #c77dff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #e0b3ff;
+	text-decoration: underline;
+}
+
+/* =========================
+   ESTILOS DE TEXTO
+   ========================= */
+
+.style_bold {
+	font-weight: bold;
+	color: #d4a0f5;
+}
+
+.style_italic {
+	font-style: italic;
+	color: #d8b4e8;
+}
